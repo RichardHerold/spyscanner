@@ -10,6 +10,6 @@ font = ImageFont.truetype(FredokaOne, 12)
 img = Image.open("resources/fingerprint.png")
 draw = ImageDraw.Draw(img)
 
-draw.text((106, 20), "AGENT CONFIRMED", inky_display.WHITE, font=font)
+draw.text((90, 20), "AGENT CONFIRMED", inky_display.WHITE, font=font)
 inky_display.set_image(img)
 inky_display.show()
