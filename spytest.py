@@ -4,7 +4,6 @@ inky_display = InkyPHAT("yellow")
 inky_display.set_border(inky_display.WHITE)
 
 from PIL import Image, ImageFont, ImageDraw
-from font_Courier_New import Courier_New.tff
 font = ImageFont.truetype(filename='Courier_New.tff', 11)
 
 img = Image.open("resources/fingerprint.png")
